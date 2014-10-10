@@ -1,3 +1,3 @@
 (function () {
-    Discourse.Markdown.whiteListTag('iframe');
+    Discourse.Markdown.whiteListIframe(/.+?/);
 }).call(this);
